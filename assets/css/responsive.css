@@ -1,0 +1,47 @@
+@media (min-width: 320px) and (max-width: 767px) {
+/*.header-sticky .logo img{
+    content: url(../../assets/images/logo/thankucash_logo.png);
+    width: 175px;
+    color: #442563;
+}*/
+.copyrights-header2 {
+    color: #442563 !important;
+    font-size: 11px;
+    font-weight: 600;
+}
+.head-title h1{
+	color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-weight: 700;
+    /*line-height: 50px;*/
+}
+.head-title h2{
+	color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.body-section-video h1{
+	color: #404E5B;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+.body-section-video h4{
+	color: #404E5B;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .img-holder .info-holder img {
+    width: 100%;
+    max-width: 230px;
+    }
+
+}

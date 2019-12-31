@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="55px" viewBox="0 0 45 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>rewards-phone</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Wesbite-bright-purple" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="homepage-new-2-copy-12" transform="translate(-698.000000, -2089.000000)" stroke="#621AAB">
+            <g id="Group-24-Copy" transform="translate(175.000000, 1936.000000)">
+                <g id="rewards-phone" transform="translate(523.000000, 153.000000)">
+                    <circle id="Oval" cx="18.2355131" cy="24.5081019" r="7.00231481"></circle>
+                    <path d="M28.7389853,45.5150463 C28.7389853,39.7141388 24.0364206,35.0115741 18.2355131,35.0115741 C12.4346056,35.0115741 7.7320409,39.7141388 7.7320409,45.5150463" id="Shape"></path>
+                    <path d="M35.7413002,33.2609954 L35.7413002,49.0162037 C35.7413002,51.9166575 33.3900178,54.2679398 30.489564,54.2679398 L5.9837963,54.2679398 C4.59054491,54.268559 3.25414557,53.7155261 2.26874911,52.7305674 C1.28335266,51.7456087 0.729725943,50.4094552 0.72972608,49.0162037 L0.72972608,10.5034722 C0.729725943,9.1102207 1.28335266,7.77406722 2.26874911,6.78910853 C3.25414557,5.80414984 4.59054491,5.25111689 5.9837963,5.25173611 L14.7366898,5.25173611" id="Shape"></path>
+                    <g id="star" transform="translate(24.656636, 0.000000)">
+                        <polygon id="Shape" points="12.8510762 6.14574003 19.6349522 7.13730511 14.7262141 11.918416 15.8846763 18.6728395 9.81747608 15.4821598 3.75027586 18.6728395 4.90873804 11.918416 0 7.13730511 6.78387597 6.14574003 9.81747608 0"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

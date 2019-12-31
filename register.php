@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Register | ThankUCash - Connected Analytics</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/thank-icon.jpeg">
+    
+    <!-- CSS 
+    ========================= -->
+   
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    
+    <!-- Fonts CSS -->
+    <link rel="stylesheet" href="assets/css/bicon.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome/css/all.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/css/plugins.css">
+    
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/register.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/register2.css">
+    <!-- Modernizer JS -->
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<style>
+    .inner-header{ background-color: #ffffff; }
+    .email_phone{ display: flex; }
+    .email_phone .input_2{ margin-right: 5px; }
+</style>
+
+<body>
+
+    <!-- Header-area start -->
+    <header class="header ">
+        <div class="header-area inner-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <!-- logo Start -->
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/images/logo/thankucash_logo.png" alt=""><div class="copyrights-header">a Connected Analytics Ltd. Product</div></a>
+                        </div><!--// logo End -->
+                    </div>
+                    <div class="col-lg-8">
+                        <!-- main-menu-area Start -->
+                        <div class="main-menu">
+                            <nav class="main-navigation">
+                                <ul>
+                                    <li class="active"><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li ><a href="business.html">Business Solutions</a></li>
+                                    <li><a href="careers.html">Careers</a></li>
+                                    <li><a href="index.html">More</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="rewards.html">ThankUCash Rewards</a></li>
+                                            <li><a href="bank-solution.html">Banking Solution</a></li>
+                                            <li><a href="solutions.html">More Solutions</a></li>
+                                            <!-- <li><a href="gift-points.html">Gift Points</a></li> -->
+                                            <!-- <li><a href="mad-deals.html">Mad Deals</a></li> -->
+                                            <li><a href="merchants.html">Merchants</a></li>
+                                            <li><a href="merchant-manual.html">Merchant Manual</a></li>
+                                            <li><a href="lagosboats/index.html">Lagos Boats</a></li>
+                                            <li><a href="casestudy.html">Case Study</a></li>
+                                            <li><a href="contact.html">Contact US</a></li>
+                                            
+                                            <li><a href="register.html">Register</a></li>
+                                            <li><a href="https://medium.com/thankucash" target="_blank">Blog</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="login.html" class="login_btn ">Login/Sign Up</a></li>
+                                </ul>
+                            </nav>
+                        </div><!--// main-menu-area End -->
+                    </div>
+                    <div class="col">
+                        <!-- mobile-menu start -->
+                        <div class="mobile-menu d-block d-lg-none"></div>
+                        <!-- mobile-menu end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header-area end -->
+    
+    <div class="form-body">
+        <div class="website-logo">
+            <!-- <a href="index.html">
+                <div class="logo">
+                    <img class="logo-size" src="assets/images/logo.svg" alt="">
+                </div>
+            </a> -->
+        </div>
+        <div class="row">
+            <div class="img-holder">
+                <div class="bg"></div>
+                <div class="info-holder">
+                    <div class="customer_">
+                        <h2>Customer or a Shopper?</h2>
+                        <h4>Download Our App</h4>
+                    </div>
+                    <img src="assets/images/thankucash_app.png" alt="">
+                    <div class="download_btn2">
+                        <a href="https://play.google.com/store/apps/details?id=com.hm.thankucard" target="_blank" class=""><img src="assets/images/icon/playstore-button.png" alt="ThankUCash App" ></a>
+                        <a href="https://itunes.apple.com/us/app/thank-u-cash/id1386747905" target="_blank" class=""><img src="assets/images/icon/appstore-button.png" alt="ThankUCash App" ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+                        <h3>Are you a Business, Organization or Bank?</h3>
+                        <p>Please fill the Form Below  and one of our ThankStars will call you shortly.</p>
+                        <div class="page-links">
+                            <a href="login.php">Login</a><a href="register.php" class="active">Register</a>
+                        </div>
+                        <?php
+                          include("connection.php");
+
+                          if(isset($_POST['submit'])) {
+                            $business_name = $_POST['business_name'];
+                            $how = $_POST['how'];
+                            $business_address = $_POST['business_address'];
+                            $full_name = $_POST['full_name'];
+                            $email = $_POST['email'];
+                            $phone = $_POST['phone'];
+                            $email_business = $_POST['email_business'];
+
+                            if($business_name == "" || $how == "" || $business_address == "" || $full_name == "" || $phone == "" || $email == "") {
+                              echo "All fields should be filled. Either one or many fields are empty.";
+                              echo "<br/>";
+                              echo "<a href='register.php'>Go Back</a>";
+                            } else {
+                              mysqli_query($mysqli, "INSERT INTO login(business_name, email_business, how, business_address, full_name, email, phone) VALUES('$business_name', '$email_business', '$how', '$business_address', '$full_name', '$email', '$phone')")
+                                or die("Registration was not successfully, please try again.");
+                                
+                              echo "Registration successfully. Our customer care will get back to you within 24hours.";
+                              echo "<br/>";
+                              echo "<a href='login.php'>Login</a>";
+                            }
+                          } else {
+                          ?>
+                        <form name="form1" method="post" action="">
+                            <div class="email_phone">
+                              <input class="form-control " type="text" name="business_name" placeholder="Name of Business" required>
+                              
+                            </div>
+                            <input class="form-control" type="text" name="business_address" placeholder="Address of Business" required>
+                            <input class="form-control" type="email" name="email_business" placeholder="Business Email" required>
+                            <div class="email_phone">
+                                <input class="form-control " type="text" name="full_name" placeholder="Contact Person Name" required>
+                                
+                            </div>
+                            <div class="email_phone">
+                                <input class="form-control input_2" type="email" name="email" placeholder="Contact Person Email" required>
+                                <input class="form-control " type="number" name="phone" placeholder="Contact Person Number" required>
+                            </div>
+                            <textarea class="form-control" type="text" name="how" placeholder="How did you hear about us?" required></textarea>
+                            <div class="form-button">
+                                <button value="Submit" id="submit" type="submit" name="submit" class="ibtn">Submit</button>
+                            </div>
+                        </form>
+                        <?php
+                        }
+                        ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- JS ============================================ -->
+
+<!-- jQuery JS -->
+<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+<!-- Popper JS -->
+<script src="assets/js/popper.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- Plugins JS -->
+<script src="assets/js/plugins.js"></script>
+<!-- Ajax Mail -->
+<script src="assets/js/ajax-mail.js"></script>
+<!-- Main JS -->
+<script src="assets/js/main.js"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123746216-1"></script>
+    <script>
+        if (location.protocol != 'https:')
+{
+ location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+}
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-123746216-1');
+    </script> -->
+
+</body>
+
+</html>

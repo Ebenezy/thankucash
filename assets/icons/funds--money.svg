@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="52px" viewBox="0 0 54 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>money-wallet-open</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Wesbite-bright-purple" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="homepage-new-2-copy-12" transform="translate(-400.000000, -1412.000000)" stroke="#621AAB">
+            <g id="Group-24" transform="translate(175.000000, 1261.000000)">
+                <g id="Group-23" transform="translate(0.000000, 55.000000)">
+                    <g id="Group-27">
+                        <g id="money-wallet-open" transform="translate(225.000000, 95.000000)">
+                            <path d="M2.925,3.9555 L32.8275,11.42325 C36.5837227,12.5247192 39.2183933,15.8999947 39.375,19.81125 L39.375,46.81125 C39.4746197,48.4777013 38.7542583,50.0878086 37.4454244,51.1241182 C36.1365904,52.1604278 34.4041978,52.4923641 32.805,52.01325 L7.695,46.10925 C3.93108911,45.0699496 1.2733537,41.7131933 1.125,37.81125 L1.125,8.56125 C1.13611995,4.8379437 4.1516937,1.82236995 7.875,1.81125 L46.125,1.81125 C49.8483063,1.82236995 52.86388,4.8379437 52.875,8.56125 L52.875,33.31125 C52.8651093,37.0350675 49.8488175,40.0513593 46.125,40.06125 L39.375,40.06125" id="Shape"></path>
+                            <path d="M21.375,8.56125 L43.875,8.56125" id="Shape"></path>
+                            <circle id="Oval" cx="29.25" cy="31.06125" r="4.5"></circle>
+                            <path d="M39.375,19.81125 L43.875,19.81125" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

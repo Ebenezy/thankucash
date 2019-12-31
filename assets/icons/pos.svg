@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="69px" viewBox="0 0 44 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>POS</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Wesbite-bright-purple" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="homepage-new-2-copy-12" transform="translate(-1171.000000, -1411.000000)" stroke="#621AAB">
+            <g id="Group-24" transform="translate(175.000000, 1261.000000)">
+                <g id="Group-23" transform="translate(0.000000, 55.000000)">
+                    <g id="Group-27-Copy-2" transform="translate(722.000000, 0.000000)">
+                        <g id="POS" transform="translate(296.000000, 129.500000) rotate(180.000000) translate(-296.000000, -129.500000) translate(275.000000, 96.000000)">
+                            <path d="M13.875,60.875 L28.125,60.875" id="Shape"></path>
+                            <path d="M13.875,54.125 L28.125,54.125" id="Shape"></path>
+                            <g id="Group-30" transform="translate(11.000000, 8.000000)">
+                                <g id="Group-26" transform="translate(0.000000, 16.000000)">
+                                    <path d="M14,1 L20.25,1" id="Shape" transform="translate(17.125000, 1.000000) scale(-1, 1) translate(-17.125000, -1.000000) "></path>
+                                    <path d="M0,1 L6.25,1" id="Shape" transform="translate(3.125000, 1.000000) scale(-1, 1) translate(-3.125000, -1.000000) "></path>
+                                </g>
+                                <g id="Group-25" transform="translate(0.000000, 8.000000)">
+                                    <path d="M0,1 L6.25,1" id="Shape" transform="translate(3.125000, 1.000000) scale(-1, 1) translate(-3.125000, -1.000000) "></path>
+                                    <path d="M14,1 L20.25,1" id="Shape" transform="translate(17.125000, 1.000000) scale(-1, 1) translate(-17.125000, -1.000000) "></path>
+                                </g>
+                                <g id="Group-3">
+                                    <path d="M14,1 L20.25,1" id="Shape" transform="translate(17.125000, 1.000000) scale(-1, 1) translate(-17.125000, -1.000000) "></path>
+                                    <path d="M0,1 L6.25,1" id="Shape" transform="translate(3.125000, 1.000000) scale(-1, 1) translate(-3.125000, -1.000000) "></path>
+                                </g>
+                            </g>
+                            <path d="M9.07608696,54.5 L3.63043478,54.5 C1.62788357,54.4820433 0.00598078028,49.6124502 0,43.6 L0,10.9 C0.00498872488,4.8863113 1.62747105,0.0149781237 3.63043478,0 L38.1195652,0 C40.1225289,0.0149781237 41.7450113,4.8863113 41.75,10.9 L41.75,43.6 C41.7440192,49.6124502 40.1221164,54.4820433 38.1195652,54.5 L32.673913,54.5" id="Shape"></path>
+                            <path d="M32.25,65.2 C32.25,66.1941125 31.4492785,67 30.4615385,67 L10.7884615,67 C9.80072151,67 9,66.1941125 9,65.2 L9,49 L32.25,49 L32.25,65.2 Z" id="Shape"></path>
+                            <path d="M33.25,46.0375 C33.25,46.7761809 32.3803992,47.375 31.3076923,47.375 L9.94230769,47.375 C8.86960077,47.375 8,46.7761809 8,46.0375 L8,35 C8,34.4477153 8.44771525,34 9,34 L32.25,34 C32.8022847,34 33.25,34.4477153 33.25,35 L33.25,46.0375 Z" id="Shape-Copy" transform="translate(20.625000, 40.687500) scale(1, -1) translate(-20.625000, -40.687500) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

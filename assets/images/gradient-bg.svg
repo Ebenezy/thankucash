@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="725px" viewBox="0 0 1440 725" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>gradient-ring--about</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1440" height="725"></rect>
+        <linearGradient x1="78.7270533%" y1="37.9722587%" x2="20.9063005%" y2="58.5829051%" id="linearGradient-3">
+            <stop stop-color="#794C9C" offset="0%"></stop>
+            <stop stop-color="#442563" offset="100%"></stop>
+        </linearGradient>
+        <path d="M18,-10 L1494.31579,-10 L1494.31579,785.242105 C1224.12617,841.758866 982.93387,870.017246 770.738895,870.017246 C558.543921,870.017246 307.630956,841.758866 18,785.242105 L18,-10 Z" id="path-4"></path>
+        <filter x="-0.6%" y="-0.7%" width="101.2%" height="101.9%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.11 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M18,-24.6105263 L1494.31579,-24.6105263 L1494.31579,770.631579 C1224.12617,827.148339 982.93387,855.40672 770.738895,855.40672 C558.543921,855.40672 307.630956,827.148339 18,770.631579 L18,-24.6105263 Z" id="path-7"></path>
+        <filter x="-0.6%" y="-0.7%" width="101.2%" height="101.9%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.11 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Wesbite-bright-purple" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="gradient-ring--about">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill-opacity="0" fill="#D8D8D8" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <g id="gradient-ring" mask="url(#mask-2)">
+                <g transform="translate(-18.000000, -146.000000)" id="Group-7">
+                    <g>
+                        <mask id="mask-5" fill="white">
+                            <use xlink:href="#path-4"></use>
+                        </mask>
+                        <g id="Mask" opacity="0.2">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-4"></use>
+                            <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        </g>
+                        <mask id="mask-8" fill="white">
+                            <use xlink:href="#path-7"></use>
+                        </mask>
+                        <g id="Mask">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-7"></use>
+                            <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-7"></use>
+                        </g>
+                        <g id="Group-28" mask="url(#mask-8)" fill="url(#linearGradient-3)" fill-rule="nonzero">
+                            <g transform="translate(-147.000000, -213.000000)" id="Oval-2">
+                                <circle cx="885" cy="885" r="885"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="140px" height="140px" viewBox="0 0 140 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>solid-gradient-circle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Wesbite-bright-purple" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepage-new-2-copy-12" transform="translate(-651.000000, -1261.000000)" fill-rule="nonzero">
+            <g id="Group-24" transform="translate(175.000000, 1261.000000)">
+                <g id="solid-gradient-circle" transform="translate(476.000000, 0.000000)">
+                    <circle id="Oval-2" fill="#F5F3F5" cx="70" cy="70" r="70"></circle>
+                    <circle id="Oval-2" fill="#9C6FC9" cx="70.039548" cy="70.039548" r="54.220339"></circle>
+                    <circle id="Oval-2" fill="#7938B5" cx="70.079096" cy="70.079096" r="33.1412429"></circle>
+                    <circle id="Oval-2" fill="#621AAB" cx="70.079096" cy="70.079096" r="12.0225989"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

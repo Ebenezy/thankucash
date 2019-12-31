@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="57px" viewBox="0 0 57 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>globe</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Wesbite-bright-purple" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="homepage-new-2-copy-12" transform="translate(-690.000000, -1404.000000)" stroke="#621AAB">
+            <g id="Group-24" transform="translate(175.000000, 1261.000000)">
+                <g id="Group-23" transform="translate(0.000000, 55.000000)">
+                    <g id="Group-27-Copy" transform="translate(361.000000, 0.000000)">
+                        <g id="globe" transform="translate(155.000000, 85.000000)">
+                            <circle id="Oval" cx="22.3785166" cy="36.4450128" r="22.3785166"></circle>
+                            <path d="M0,36.4450128 L44.7570332,36.4450128" id="Shape"></path>
+                            <path d="M22.3785166,14.0664962 C27.9760111,20.1945237 31.1570554,28.1471346 31.3299233,36.4450128 C31.1570554,44.742891 27.9760111,52.6955018 22.3785166,58.8235294 C16.7810222,52.6955018 13.5999778,44.742891 13.42711,36.4450128 C13.5999778,28.1471346 16.7810222,20.1945237 22.3785166,14.0664962 Z" id="Shape"></path>
+                            <g id="wifi" transform="translate(44.578729, 14.881081) rotate(50.000000) translate(-44.578729, -14.881081) translate(33.078729, 6.381081)">
+                                <path d="M4.15601023,7.84446931 C8.39367739,4.31480306 14.5474991,4.31480306 18.7851662,7.84446931" id="Shape"></path>
+                                <path d="M0.436381074,4.15601023 C6.71868618,-1.38166601 16.1393701,-1.38166601 22.4216752,4.15601023" id="Shape"></path>
+                                <path d="M7.82368926,11.5433184 C9.98567357,10.0073332 12.8827727,10.0073332 15.044757,11.5433184" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
